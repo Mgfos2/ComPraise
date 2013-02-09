@@ -1,0 +1,69 @@
+#menu {	
+	width: 950px;
+	height: 60px;
+	margin: 0 auto;
+	background: #6AA2FD url(img/tpl_img/img04.gif);
+}
+#banner{
+  position: relative;
+  width: 950px;
+  height: 60px;
+  margin: 0 auto;
+  
+}
+#go_btn{
+  float:right;
+}
+#banner img{
+  position: absolute;
+ 
+}
+#search input{
+  position: relative;
+  float: right;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+	text-transform: uppercase;
+}
+
+div.sign-in{
+  float: right;
+  font-size: 1em;
+
+}
+
+#menu a {
+	display: block;
+	float: left;
+	background: url(img/tpl_img/img15.gif) no-repeat right 100%;
+	padding: 18px 30px 0 30px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	height: 60px;
+	background: url(img/tpl_img/img16.gif) repeat-x right 30%;
+	
+	color: #000000;
+}
+#sample_pics{
+  position: absolute;
+
+
+}
+
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
